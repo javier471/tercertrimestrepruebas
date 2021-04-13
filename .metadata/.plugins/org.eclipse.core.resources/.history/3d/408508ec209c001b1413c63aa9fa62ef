@@ -1,0 +1,61 @@
+package es.jacaranda.futbol;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class Equipo {
+	private String nombre;
+	private HashSet<Alumno> alumnos;
+	
+	public Equipo(String nombre) {
+		super();
+		this.nombre = nombre;
+		this.alumnos = new HashSet<Alumno>();
+	}
+	
+	public void anadirAlumno(Alumno alumno) throws FutbolException {
+		if (!alumnos.add(alumno))
+			throw new FutbolException("Alumno repetido");
+	}
+	
+	public void borrarAlumno(Alumno alumno) throws FutbolException {
+		if (!alumnos.remove(alumno))
+			throw new FutbolException("Alumno no exitente");
+	}
+	
+	public Alumno encontrarAlumno(Alumno a) {
+		if (alumnos.contains(a)) {
+			Iterator<Alumno> siguiente = alumnos.iterator();
+			while (siguiente.hasNext()) {
+				Alumno resul = siguiente.next();
+				if (resul.equals(a))
+					return resul;
+			}
+			return null;
+		}else
+			return null;
+	}
+	
+	public Equipo union(Equipo e) {
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Equipo [nombre=" + nombre + ", alumnos=" + alumnos + "]";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

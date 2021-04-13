@@ -1,0 +1,7 @@
+package es.jacaranda.historial;
+
+public class Historial {
+	private String usuario;
+	private ArrayList<PaginaWeb> hist;
+
+}
