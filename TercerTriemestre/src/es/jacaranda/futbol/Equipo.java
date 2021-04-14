@@ -20,7 +20,7 @@ public class Equipo {
 	
 	public void borrarAlumno(Alumno alumno) throws FutbolException {
 		if (!alumnos.remove(alumno))
-			throw new FutbolException("Alumno no exitente");
+			throw new FutbolException("Alumno no existente");
 	}
 	
 	public Alumno encontrarAlumno(Alumno a) {
@@ -68,7 +68,9 @@ public class Equipo {
 					catch(FutbolException fe){
 				}
 			}
+			
 		}
+		return resul;
 	}
 
 	@Override

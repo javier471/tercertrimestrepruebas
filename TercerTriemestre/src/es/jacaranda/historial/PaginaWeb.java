@@ -1,12 +1,11 @@
 package es.jacaranda.historial;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class PaginaWeb {
 	
 private String url;
-private LocalDate fecha;
+private LocalDateTime fecha;
 
 public PaginaWeb(String url) {
 	super();
@@ -18,7 +17,7 @@ public String getUrl() {
 	return url;
 }
 
-public LocalDate getFecha() {
+public LocalDateTime getFecha() {
 	return fecha;
 }
 
