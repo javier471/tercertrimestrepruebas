@@ -12,7 +12,7 @@ public class MainPaginas {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayList<PaginaWeb> listhisto = new ArrayList<PaginaWeb>();
-		Historial histo = new Historial("Paco", listhisto);
+		Historial histo = new Historial("Paco");
 
 		int opc;
 		do {
@@ -21,8 +21,7 @@ public class MainPaginas {
 			switch (opc) {
 			case 1:
 				String URL = leerString("Introduzca URL");
-				PaginaWeb pagin = new PaginaWeb(URL);
-				histo.anadirPagina(pagin);
+				histo.anadirPagina(URL);
 				break;
 			case 2:
 				System.out.println(histo);

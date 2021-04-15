@@ -7,15 +7,16 @@ public class Historial {
 	private String usuario;
 	private ArrayList<PaginaWeb> hist;
 
-	public Historial(String usuario, ArrayList<PaginaWeb> hist) {
+	public Historial(String usuario) {
 		super();
 		this.usuario = usuario;
-		this.hist.addAll(hist);
+		hist=new ArrayList<PaginaWeb>();
 	}
 
-	public void anadirPagina(PaginaWeb a) {
-		hist.add(a);
-	}
+	public void anadirPagina(String URL) {
+		PaginaWeb aux=new PaginaWeb(URL);
+		hist.add(aux);
+		}
 
 	public String devuelveDia(LocalDate dia) {
 		String salida = "";
