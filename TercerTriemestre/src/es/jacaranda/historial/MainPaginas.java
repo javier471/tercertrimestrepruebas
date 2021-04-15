@@ -11,7 +11,6 @@ public class MainPaginas {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<PaginaWeb> listhisto = new ArrayList<PaginaWeb>();
 		Historial histo = new Historial("Paco");
 
 		int opc;
@@ -30,7 +29,7 @@ public class MainPaginas {
 				String cadena=leerString("Introduzca fecha (dd/MM/yyyy)");
 				DateTimeFormatter format=DateTimeFormatter.ofPattern("dd/MM/yyyy");
 				LocalDate fecha=LocalDate.parse(cadena,format);
-				System.out.println(histo.devuelveDia(fecha));
+				System.out.println(histo.devuelveDia(cadena));
 				break;
 			case 4:
 				histo.borrarHistorial();

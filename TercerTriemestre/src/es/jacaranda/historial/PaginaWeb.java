@@ -10,7 +10,7 @@ private LocalDateTime fecha;
 public PaginaWeb(String url) {
 	super();
 	this.url = url;
-	LocalDateTime.now();
+	this.fecha=LocalDateTime.now();
 }
 
 public String getUrl() {
