@@ -19,11 +19,10 @@ public class Historial {
 	}
 
 	public String devuelveDia(String dia) {
-		String salida = "";
-		for (PaginaWeb i : hist) {
-//			if (i.getFecha().getDayOfMonth() == dia.getDayOfMonth() && i.getFecha().getMonth() == dia.getMonth()
-//					&& i.getFecha().getYear() == dia.getYear()) {
-			LocalDate dia;
+		StringBuilder salida = new StringBuilder();
+		LocalDate dia=LocalDate.parse(dia, formatter)
+		while 
+			
 			dia=LocalDate parse(dia);
 			if ((i.getFecha()).toLocalDate().equals(dia)) {
 			salida = salida + i.getUrl() + "\n";	

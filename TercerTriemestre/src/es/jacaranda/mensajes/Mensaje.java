@@ -1,0 +1,14 @@
+package es.jacaranda.mensajes;
+
+import java.time.LocalDateTime;
+
+public class Mensaje {
+
+	private Persona remitente;
+	private String texto;
+	private LocalDateTime fecha;
+	private int nummensaje;
+	
+	
+	
+}
