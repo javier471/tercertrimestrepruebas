@@ -1,6 +1,6 @@
 package es.jacaranda.mensajes;
 
-public abstract class Persona {
+public class Persona {
 
 	protected String nombre;
 	protected int edad;

@@ -7,16 +7,8 @@ public class Mensaje {
 	private Persona remitente;
 	private String texto;
 	private LocalDateTime fecha;
+	private int nummensaje;
 	
-	public Mensaje(Persona remitente, String texto) {
-		super();
-		this.remitente = remitente;
-		this.texto = texto;
-		this.fecha=LocalDateTime.now();
-		
-	}
-	
-		
 	
 	
 }

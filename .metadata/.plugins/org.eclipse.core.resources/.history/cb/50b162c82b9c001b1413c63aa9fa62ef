@@ -1,7 +1,0 @@
-package es.jacaranda.historial;
-
-public class PaginaWeb {
-private String url;
-private LocalDate fecha;
-
-}

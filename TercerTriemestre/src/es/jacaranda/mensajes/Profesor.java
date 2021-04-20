@@ -1,11 +1,10 @@
 package es.jacaranda.mensajes;
 
-public class Alumno extends Persona{
+public class Profesor extends Persona{
 
-	public Alumno(String nombre, int edad) {
+	public Profesor(String nombre, int edad) {
 		super(nombre, edad);
 		// TODO Auto-generated constructor stub
 	}
 
-	
 }
