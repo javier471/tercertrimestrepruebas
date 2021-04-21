@@ -1,0 +1,10 @@
+package ejercicio.hotel;
+
+import java.util.HashSet;
+
+public class Hotel {
+
+	private String nombre;
+	private HashSet <Reserva> instalaciones;
+	
+}

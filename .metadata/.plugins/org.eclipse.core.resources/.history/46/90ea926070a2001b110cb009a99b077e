@@ -1,0 +1,10 @@
+package ejercicio.hotel;
+
+public class Persona {
+
+	private String nombre;
+	private String Apellido;
+	private String DNI;
+	
+	
+}

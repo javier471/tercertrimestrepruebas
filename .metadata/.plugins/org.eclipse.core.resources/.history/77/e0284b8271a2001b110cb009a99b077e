@@ -1,0 +1,14 @@
+package ejercicio.hotel;
+
+enum Instalacion {
+	 h, s;
+}
+
+public class Persona {
+
+	private String nombre;
+	private String Apellido;
+	private String DNI;
+	
+	
+}

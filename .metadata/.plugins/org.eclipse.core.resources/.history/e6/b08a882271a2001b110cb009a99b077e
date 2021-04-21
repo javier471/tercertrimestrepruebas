@@ -1,0 +1,21 @@
+package ejercicio.hotel;
+
+import java.time.LocalDate;
+import java.util.HashSet;
+
+enum Instalacion {
+	 h, s;
+}
+
+
+public abstract class Reserva {
+	
+	private LocalDate fechainicio;
+	private LocalDate fechafin;
+	private HashSet<Persona> usuarios;
+	private String codigo;
+	private Instalacion tipo;
+
+	
+	
+}
