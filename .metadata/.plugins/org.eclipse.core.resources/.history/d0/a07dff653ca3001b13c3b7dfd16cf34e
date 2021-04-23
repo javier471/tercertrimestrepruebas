@@ -1,0 +1,9 @@
+package ejercicio.hotel;
+
+public class Sala {
+
+	public Sala(TipoSala sala) {
+		super();
+		
+	}
+}

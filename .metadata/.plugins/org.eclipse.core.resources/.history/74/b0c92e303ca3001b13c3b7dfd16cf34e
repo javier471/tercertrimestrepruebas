@@ -1,0 +1,8 @@
+package ejercicio.hotel;
+
+public class Clientes {
+	
+	private String nombre;
+	private String apellido;
+	private String DNI;
+}

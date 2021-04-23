@@ -1,0 +1,17 @@
+package ejercicio.hotel;
+
+public class Clientes {
+	
+	private String nombre;
+	private String apellido;
+	private String DNI;
+	
+	public Clientes(String nombre, String apellido, String dNI) {
+		super();
+		this.nombre = nombre;
+		this.apellido = apellido;
+		DNI = dNI;
+	}
+	
+	
+}
